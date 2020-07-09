@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>THIS IS OUR FIRST PAGE</title>
+        <style>
+            .readtext {color:red;}
+            .mydivstyle {background-color: chartreuse;}
+        </style>
+        <script>
+            function change_the_text_to(what) {
+                document.getElementById('output').innerHTML = what
+            }
+        </script>
+    </head>
+    <body>
+        <h1 class="readtext">HELLO UNIVERSE</h1>
+        <button type="button" onclick="change_the_text_to('Hello World')">
+            CLICK HERE
+        </button>
+        <div id="output" class="mydivstyle">RANDAM TEXT</div>
+    </body>
+</html>
